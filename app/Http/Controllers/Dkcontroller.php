@@ -7,6 +7,7 @@ use App\Models\Daftar;
 use App\Models\Menu;
 use App\Models\Order;
 use App\Models\Testi;
+use Carbon\Carbon;
 use Database\Seeders\MenuSeeders;
 use DeepCopy\Filter\Filter;
 use Illuminate\Contracts\Validation\Validator;
@@ -119,21 +120,22 @@ class Dkcontroller extends Controller
     public function joint(Request $request)
     {
 
-
         $daftar = new Daftar;
 
         $daftar->nama_lengkap = $request->post('nama');
 
         $daftar->nomor_hp = $request->post('hp');
         $daftar->email = $request->post('email');
-        $daftar->tanggal_lahir = $request->post('tanggal');
-
+        $daftar->tanggal_lahir = Carbon::parse($request->tanggal)->format('Y/m/d');;
+        $daftar->jenis_kelamin = $request->jkl;
         if($request->hasFile('ktp')){
             $filename = $request->ktp->getClientOriginalName();
             $request->ktp->storeAs('KTP',$filename,'public');
             $daftar->ktp = $filename;
 
         }
+        $daftar->lokasi_pengajuan = $request->lokasiP;
+        $daftar->alamat_lengkap = $request->alamatL;
         $request->validate([
             'nama' => 'required',
             'tanggal' => 'required',
@@ -145,5 +147,9 @@ class Dkcontroller extends Controller
         $daftar->save();
 
         return redirect()->route('home')->with('success', 'kami telah menghubungi kemitraan dkriuk tentang pendaftaran anda');
+    }
+    public function profilec()
+    {
+        return view('profil');
     }
 }

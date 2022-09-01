@@ -29,6 +29,8 @@ Route::get('ujang',[Dkcontroller::class, 'ujang'])->name('ujang');
 Route::get('/mitra/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/mitra/login', [LoginController::class, 'login']);
 Route::get('test',[Dkcontroller::class, 'testrl']);
+Route::get('profile',[Dkcontroller::class, 'profilec'])->name('profile');
+
 // Detail menu
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/menu/{id}', [Dkcontroller::class, 'detailmenu'])->name('detailmenu');

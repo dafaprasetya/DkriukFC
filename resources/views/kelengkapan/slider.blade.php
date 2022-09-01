@@ -67,7 +67,7 @@
 
     <div class="row intro-content">
 
-        <div class="flat-carousel slid-m">
+        <div class="flat-carousel slid-m" id="slid-m">
             <div class="owl-carousel-services">
 
 

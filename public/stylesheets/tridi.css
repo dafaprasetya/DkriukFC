@@ -1,0 +1,1054 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+.Dkriuk-logo-tridi {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.Dkriuk-logo-tridi:before {
+  content: "";
+  color: #fff;
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  font-size: 6vh;
+  transform: translateX(-100%) translateY(-50%);
+}
+.Dkriuk-logo-tridi .reflection-content {
+  height: 65vh;
+  width: 65vh;
+  background: #000 url('../images/imagebox/1.png');
+  background-size: cover;
+  background-position: center;
+  transform: rotateX(0) rotateY(0);
+  pointer-events: none;
+  transition: 100ms linear transform;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Dkriuk-logo-tridi .reflection-content{
+        height: 55vh;
+        width: 55vh;
+    }
+}
+
+.Dkriuk-logo-tridi .reflection-content:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: -50%;
+  top: -50%;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi {
+  position: absolute;
+  z-index: 1;
+  width: 10%;
+  height: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-1 {
+  top: 0%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-1:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-1:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-2 {
+  top: 0%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-2:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-2:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-3 {
+  top: 0%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-3:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-3:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-4 {
+  top: 0%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-4:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-4:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-5 {
+  top: 0%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-5:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-5:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-6 {
+  top: 0%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-6:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-6:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-7 {
+  top: 0%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-7:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-7:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-8 {
+  top: 0%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-8:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-8:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-9 {
+  top: 0%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-9:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-9:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-10 {
+  top: 0%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-10:hover ~ .reflection-content {
+  transform: rotateX(20deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-10:hover ~ .reflection-content:before {
+  transform: translateY(20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-11 {
+  top: 10%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-11:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-11:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-12 {
+  top: 10%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-12:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-12:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-13 {
+  top: 10%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-13:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-13:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-14 {
+  top: 10%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-14:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-14:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-15 {
+  top: 10%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-15:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-15:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-16 {
+  top: 10%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-16:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-16:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-17 {
+  top: 10%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-17:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-17:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-18 {
+  top: 10%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-18:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-18:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-19 {
+  top: 10%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-19:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-19:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-20 {
+  top: 10%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-20:hover ~ .reflection-content {
+  transform: rotateX(15deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-20:hover ~ .reflection-content:before {
+  transform: translateY(15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-21 {
+  top: 20%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-21:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-21:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-22 {
+  top: 20%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-22:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-22:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-23 {
+  top: 20%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-23:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-23:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-24 {
+  top: 20%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-24:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-24:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-25 {
+  top: 20%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-25:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-25:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-26 {
+  top: 20%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-26:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-26:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-27 {
+  top: 20%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-27:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-27:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-28 {
+  top: 20%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-28:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-28:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-29 {
+  top: 20%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-29:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-29:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-30 {
+  top: 20%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-30:hover ~ .reflection-content {
+  transform: rotateX(10deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-30:hover ~ .reflection-content:before {
+  transform: translateY(10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-31 {
+  top: 30%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-31:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-31:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-32 {
+  top: 30%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-32:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-32:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-33 {
+  top: 30%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-33:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-33:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-34 {
+  top: 30%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-34:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-34:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-35 {
+  top: 30%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-35:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-35:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-36 {
+  top: 30%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-36:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-36:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-37 {
+  top: 30%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-37:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-37:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-38 {
+  top: 30%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-38:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-38:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-39 {
+  top: 30%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-39:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-39:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-40 {
+  top: 30%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-40:hover ~ .reflection-content {
+  transform: rotateX(5deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-40:hover ~ .reflection-content:before {
+  transform: translateY(5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-41 {
+  top: 40%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-41:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-41:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-42 {
+  top: 40%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-42:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-42:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-43 {
+  top: 40%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-43:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-43:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-44 {
+  top: 40%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-44:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-44:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-45 {
+  top: 40%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-45:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-45:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-46 {
+  top: 40%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-46:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-46:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-47 {
+  top: 40%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-47:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-47:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-48 {
+  top: 40%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-48:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-48:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-49 {
+  top: 40%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-49:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-49:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-50 {
+  top: 40%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-50:hover ~ .reflection-content {
+  transform: rotateX(0deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-50:hover ~ .reflection-content:before {
+  transform: translateY(0%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-51 {
+  top: 50%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-51:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-51:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-52 {
+  top: 50%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-52:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-52:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-53 {
+  top: 50%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-53:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-53:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-54 {
+  top: 50%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-54:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-54:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-55 {
+  top: 50%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-55:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-55:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-56 {
+  top: 50%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-56:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-56:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-57 {
+  top: 50%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-57:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-57:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-58 {
+  top: 50%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-58:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-58:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-59 {
+  top: 50%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-59:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-59:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-60 {
+  top: 50%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-60:hover ~ .reflection-content {
+  transform: rotateX(-5deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-60:hover ~ .reflection-content:before {
+  transform: translateY(-5%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-61 {
+  top: 60%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-61:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-61:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-62 {
+  top: 60%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-62:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-62:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-63 {
+  top: 60%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-63:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-63:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-64 {
+  top: 60%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-64:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-64:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-65 {
+  top: 60%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-65:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-65:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-66 {
+  top: 60%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-66:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-66:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-67 {
+  top: 60%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-67:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-67:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-68 {
+  top: 60%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-68:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-68:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-69 {
+  top: 60%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-69:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-69:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-70 {
+  top: 60%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-70:hover ~ .reflection-content {
+  transform: rotateX(-10deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-70:hover ~ .reflection-content:before {
+  transform: translateY(-10%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-71 {
+  top: 70%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-71:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-71:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-72 {
+  top: 70%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-72:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-72:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-73 {
+  top: 70%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-73:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-73:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-74 {
+  top: 70%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-74:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-74:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-75 {
+  top: 70%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-75:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-75:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-76 {
+  top: 70%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-76:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-76:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-77 {
+  top: 70%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-77:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-77:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-78 {
+  top: 70%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-78:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-78:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-79 {
+  top: 70%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-79:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-79:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-80 {
+  top: 70%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-80:hover ~ .reflection-content {
+  transform: rotateX(-15deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-80:hover ~ .reflection-content:before {
+  transform: translateY(-15%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-81 {
+  top: 80%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-81:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-81:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-82 {
+  top: 80%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-82:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-82:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-83 {
+  top: 80%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-83:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-83:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-84 {
+  top: 80%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-84:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-84:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-85 {
+  top: 80%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-85:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-85:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-86 {
+  top: 80%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-86:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-86:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-87 {
+  top: 80%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-87:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-87:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-88 {
+  top: 80%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-88:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-88:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-89 {
+  top: 80%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-89:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-89:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-90 {
+  top: 80%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-90:hover ~ .reflection-content {
+  transform: rotateX(-20deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-90:hover ~ .reflection-content:before {
+  transform: translateY(-20%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-91 {
+  top: 90%;
+  left: 0%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-91:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(-20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-91:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-92 {
+  top: 90%;
+  left: 10%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-92:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(-15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-92:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-93 {
+  top: 90%;
+  left: 20%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-93:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(-10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-93:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-94 {
+  top: 90%;
+  left: 30%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-94:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(-5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-94:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-95 {
+  top: 90%;
+  left: 40%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-95:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(0deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-95:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-96 {
+  top: 90%;
+  left: 50%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-96:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(5deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-96:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-97 {
+  top: 90%;
+  left: 60%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-97:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(10deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-97:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-98 {
+  top: 90%;
+  left: 70%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-98:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(15deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-98:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-99 {
+  top: 90%;
+  left: 80%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-99:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(20deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-99:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-100 {
+  top: 90%;
+  left: 90%;
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-100:hover ~ .reflection-content {
+  transform: rotateX(-25deg) rotateY(25deg);
+}
+.Dkriuk-logo-tridi .Dkriuk-reflection-tridi-100:hover ~ .reflection-content:before {
+  transform: translateY(-25%);
+}

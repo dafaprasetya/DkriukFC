@@ -2,28 +2,47 @@
 -------------------------------------------------------------- */
 @media only screen and (max-width: 1366px) {
 
-
+    .loader{
+        top: 300px;
+    }
 }
 
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
-
+    .loader{
+        top: 300px;
+    }
 }
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+    .loader{
+        top: 500px;
+    }
+    .trididiv{
+        display: none;
+    }
+    .stats{
+        margin-bottom: 50px;
+    }
     .flat-row.flat-our {
         padding-bottom: 92px;
         background-image: none;
         background-color: #ff0000;
         background-size: cover;
     }
+    .flat-row.flat-gallery{
+        background-image: none;
+    }
+    .slid-m-p-single{
+        left: 50%;
+    }
     .slid-m{
         height: 710px;
         width: 728px;
     }
     .s-intro{
-        min-height: 492px;
+        min-height: 592px;
     }
 	.btn-menu {
 		display: block ;
@@ -170,6 +189,7 @@
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+
 	.flat-portfolio .item,
 	.reservation-page-left .reservation-page-form .reservation-page-input-box,
 	.requestform p, .post .content-post .meta-post .by-author, .post .content-post .meta-post .social-links,
@@ -183,6 +203,12 @@
 	.title-section.style4 {
 		margin-bottom: 10px;
 	}
+    .profile-i-d{
+        display: none;
+    }
+    .profile-i-m{
+        display: block;
+    }
     .slid-m{
 
         height: 510px;
@@ -191,9 +217,10 @@
     }
     .s-intro {
 
-        min-height: 292px;
+        min-height: 452px;
 
       }
+
 	.flat-imagebox .item,.post .content-post .meta-post .leave-comment,
 	.imagebox, .post .content-post .meta-post .by-author, .post .content-post .meta-post .social-links  {
 		text-align: center;

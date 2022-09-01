@@ -775,7 +775,6 @@
             $(this).remove();
         });
     };
-
    	// Dom Ready
 	$(function() {
         if ( matchMedia( 'only screen and (min-width: 991px)' ).matches ) {
@@ -818,6 +817,19 @@ $(document).on('keydown', 'input[pattern]', function(e){
 
 
 
+function parallak() {
+
+    var slid = document.getElementById("slid-m");
+    var yPos = -10 - window.pageYOffset/5;
+    slid.style.top = 90 + yPos + "%";
+    var men = document.getElementById("menuin")
+    var menpos = 0 - window.pageXOffset/5;
+
+}
+
+window.addEventListener("scroll", function(){
+    parallak();
+});
 
 
 

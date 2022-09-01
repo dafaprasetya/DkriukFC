@@ -119,20 +119,62 @@
                                 <div class="col-md-6">
                                     <label>nama</label>
                                     <input type="text" name="nama" id="nama">
-                                    <label>Time</label>
-                                    <br>
-                                    <span class="fa fa-calendar date_picker" aria-hidden="true"><input type="text" placeholder="03/09/1988" name="tanggal" id="date-picker" autocomplete="none"> </span>
                                 </div>
+                                <div class="col-md-6">
+                                    <label>Tanggal Lahir</label>
+                                    <input type="date" class="form-control" name="tanggal" >
+
+                                </div>
+
                                 <div class="col-md-6">
                                     <label>Nomor HP</label>
                                     <input type="number" name="hp" id="nomor-hp">
+                                </div>
+                                <div class="col-md-6">
                                     <label>Email</label>
-                                    <br>
+
                                     <input type="email" name="email" autocomplete="email" id="email">
-                                    <br>
 
                                 </div>
-                                <div class="col-md-5">
+
+                                <div class="col-md-6">
+
+
+                                    <h4>Jenis Kelamin</h4>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="jkl" id="flexRadioDefault1" value="laki-laki" checked>
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          Laki-Laki
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="jkl" id="flexRadioDefault2" value="perempuan">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          Perempuan
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+
+
+                                    <h4>Lokasi Pengajuan</h4>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="lokasiP" id="flexRadioDefault1" value="jabodetabek">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          JABODETABEK
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="lokasiP" id="flexRadioDefault2" value="luar_jabodetabek" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          LUAR JABODETABEK
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="">Alamat Lengkap</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" name="alamatL" rows="3"></textarea>
                                     <label>Foto/Scan KTP</label>
                                     <input type="file" name="ktp" id="ktp">
                                     <br>

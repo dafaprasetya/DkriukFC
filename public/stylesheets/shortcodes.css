@@ -13,6 +13,11 @@
     background-size: cover;
     background-attachment: fixed;
 }
+.profile-single{
+    margin-top: 50px;
+    padding-bottom: 92px;
+
+}
 
 .flat-row.menu-1 {
     padding-top: 96px;
@@ -44,10 +49,7 @@
 
 .flat-row.flat-gallery {
     padding-top: 98px;
-    background-image: url(../images/portfolio/bg.jpg);
 
-    background-repeat: no-repeat;
-    background-size: 100%;
     padding-bottom: 100px;
     box-shadow: 0px 1px 38px 0px rgba(0, 0, 0, 0.13);
 }
@@ -223,11 +225,13 @@
     margin-bottom: 14px;
 }
 
+
 .title-section .title {
     font-weight: 500;
     line-height: 30px;
     position: relative;
     display: inline-block;
+
 }
 
 .title-section .title:before {

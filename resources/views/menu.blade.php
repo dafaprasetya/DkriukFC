@@ -8,7 +8,7 @@
 </section>
 
 @include('nav.navbarmenu')
-
+@include('kelengkapan.header')
     <section class="flat-row menu-1">
         <div class="container">
             <div class="row">
@@ -24,7 +24,7 @@
                 @foreach ($menu->where('fav', 'y') as $mf)
 
                 <div class="col-sm-3 col-xs-6">
-                    <div class="product effect1">
+                    <div class="product effect1" >
                         <div class="box-wrap">
                             <div class="box-image">
                                 @auth
